@@ -1,0 +1,316 @@
+INFO Incoming request: GET /api/user/ User: Anonymous Query Params: {}
+INFO Response: 200 for GET /api/user/ Execution Time: 0.07s
+INFO 2025-01-07 19:25:32,737 request_logger Incoming request: GET /api/user/ User: Anonymous Query Params: {}
+INFO 2025-01-07 19:25:32,930 request_logger Response: 200 for GET /api/user/ Execution Time: 0.19s
+INFO 2025-01-07 19:28:46,824 request_logger Incoming request: POST /api/login/ User: Anonymous Query Params: {}
+INFO 2025-01-07 19:28:47,458 request_logger Response: 200 for POST /api/login/ Execution Time: 0.63s
+INFO 2025-01-07 19:29:03,716 request_logger Incoming request: GET /api/user/ User: Anonymous Query Params: {}
+INFO 2025-01-07 19:29:03,717 request_logger Response: 401 for GET /api/user/ Execution Time: 0.00s
+INFO 2025-01-07 19:29:21,802 request_logger Incoming request: GET /api/user/ User: Anonymous Query Params: {}
+INFO 2025-01-07 19:29:21,853 request_logger Response: 200 for GET /api/user/ Execution Time: 0.05s
+INFO 2025-01-07 19:31:21,569 request_logger Incoming request: GET /api/user/ User: Anonymous Query Params: {}
+INFO 2025-01-07 19:31:21,725 request_logger Response: 200 for GET /api/user/ Execution Time: 0.16s
+INFO 2025-01-07 19:34:05,930 request_logger Incoming request: GET /api/user/ User: Anonymous Query Params: {}
+INFO 2025-01-07 19:34:06,103 request_logger Response: 200 for GET /api/user/ Execution Time: 0.17s
+INFO 2025-01-07 19:38:37,120 request_logger Incoming request: GET /api/user/100/ User: Anonymous Query Params: {}
+INFO 2025-01-07 19:38:37,510 request_logger Response: 500 for GET /api/user/100/ Execution Time: 0.39s
+INFO 2025-01-07 19:40:26,630 request_logger Incoming request: GET /api/user/100/ User: Anonymous Query Params: {}
+INFO 2025-01-07 19:40:26,802 request_logger Response: 404 for GET /api/user/100/ Execution Time: 0.17s
+INFO 2025-01-07 19:45:28,066 request_logger Incoming request: GET /api/user/100/ User: Anonymous Query Params: {}
+INFO 2025-01-07 19:45:28,253 request_logger Response: 404 for GET /api/user/100/ Execution Time: 0.19s
+INFO 2025-01-07 19:46:52,578 request_logger Incoming request: GET /api/user/100/ User: Anonymous Query Params: {}
+INFO 2025-01-07 19:46:52,666 request_logger Response: 404 for GET /api/user/100/ Execution Time: 0.09s
+INFO 2025-01-08 11:26:07,583 request_logger Incoming request: POST /api/register/ User: Anonymous Query Params: {}
+INFO 2025-01-08 11:26:07,585 request_logger Response: 401 for POST /api/register/ Execution Time: 0.00s
+INFO 2025-01-08 11:26:52,301 request_logger Incoming request: POST /api/register/ User: Anonymous Query Params: {}
+INFO 2025-01-08 11:26:52,854 request_logger Response: 201 for POST /api/register/ Execution Time: 0.55s
+INFO 2025-01-08 11:27:04,677 request_logger Incoming request: POST /api/register/ User: Anonymous Query Params: {}
+INFO 2025-01-08 11:27:04,725 request_logger Response: 400 for POST /api/register/ Execution Time: 0.05s
+INFO 2025-01-08 11:27:11,166 request_logger Incoming request: POST /api/register/ User: Anonymous Query Params: {}
+INFO 2025-01-08 11:27:11,209 request_logger Response: 400 for POST /api/register/ Execution Time: 0.04s
+INFO 2025-01-08 12:43:01,601 request_logger Incoming request: GET /api/course/ User: Anonymous Query Params: {}
+INFO 2025-01-08 12:43:01,692 request_logger Response: 200 for GET /api/course/ Execution Time: 0.09s
+INFO 2025-01-08 12:43:05,626 request_logger Incoming request: GET /api/course/123 User: Anonymous Query Params: {}
+INFO 2025-01-08 12:43:05,682 request_logger Response: 404 for GET /api/course/123 Execution Time: 0.06s
+INFO 2025-01-08 12:43:05,692 request_logger Incoming request: GET /api/course/123/ User: Anonymous Query Params: {}
+INFO 2025-01-08 12:43:05,927 request_logger Response: 500 for GET /api/course/123/ Execution Time: 0.24s
+INFO 2025-01-08 12:47:16,628 request_logger Incoming request: GET /api/user/100/ User: Anonymous Query Params: {}
+INFO 2025-01-08 12:47:16,706 request_logger Response: 404 for GET /api/user/100/ Execution Time: 0.08s
+INFO 2025-01-08 12:47:21,505 request_logger Incoming request: GET /api/course/123 User: Anonymous Query Params: {}
+INFO 2025-01-08 12:47:21,508 request_logger Response: 404 for GET /api/course/123 Execution Time: 0.00s
+INFO 2025-01-08 12:47:21,512 request_logger Incoming request: GET /api/course/123/ User: Anonymous Query Params: {}
+INFO 2025-01-08 12:47:21,569 request_logger Response: 500 for GET /api/course/123/ Execution Time: 0.06s
+INFO 2025-01-08 18:42:19,453 request_logger Incoming request: GET /api/user/100/ User: Anonymous Query Params: {}
+INFO 2025-01-08 18:42:19,526 request_logger Response: 404 for GET /api/user/100/ Execution Time: 0.07s
+INFO 2025-01-08 18:42:29,747 request_logger Incoming request: GET /api/user/4/ User: Anonymous Query Params: {}
+INFO 2025-01-08 18:42:29,748 request_logger Response: 401 for GET /api/user/4/ Execution Time: 0.00s
+INFO 2025-01-08 18:42:34,692 request_logger Incoming request: POST /api/login/ User: Anonymous Query Params: {}
+INFO 2025-01-08 18:42:35,263 request_logger Response: 200 for POST /api/login/ Execution Time: 0.57s
+INFO 2025-01-08 18:43:00,205 request_logger Incoming request: GET /api/user/4/ User: Anonymous Query Params: {}
+INFO 2025-01-08 18:43:00,271 request_logger Response: 200 for GET /api/user/4/ Execution Time: 0.07s
+INFO 2025-01-08 18:43:10,932 request_logger Incoming request: GET /api/user/5/ User: Anonymous Query Params: {}
+INFO 2025-01-08 18:43:10,983 request_logger Response: 403 for GET /api/user/5/ Execution Time: 0.05s
+INFO 2025-01-08 18:50:38,997 request_logger Incoming request: GET /api/user/5/ User: Anonymous Query Params: {}
+INFO 2025-01-08 18:50:39,073 request_logger Response: 403 for GET /api/user/5/ Execution Time: 0.08s
+INFO 2025-01-08 18:52:00,340 request_logger Incoming request: GET /api/user/5/ User: Anonymous Query Params: {}
+INFO 2025-01-08 18:52:00,342 request_logger Response: 401 for GET /api/user/5/ Execution Time: 0.00s
+INFO 2025-01-08 18:57:36,662 request_logger Incoming request: GET /api/user/5/ User: Anonymous Query Params: {}
+INFO 2025-01-08 18:57:36,664 request_logger Response: 401 for GET /api/user/5/ Execution Time: 0.00s
+INFO 2025-01-08 19:00:38,337 request_logger Incoming request: GET /api/user/5/ User: Anonymous Query Params: {}
+INFO 2025-01-08 19:00:38,338 request_logger Response: 401 for GET /api/user/5/ Execution Time: 0.00s
+INFO 2025-01-08 19:02:12,567 request_logger Incoming request: GET /api/user/5/ User: Anonymous Query Params: {}
+INFO 2025-01-08 19:02:12,569 request_logger Response: 401 for GET /api/user/5/ Execution Time: 0.00s
+INFO 2025-01-08 19:14:36,080 request_logger Incoming request: GET /api/user/5/ User: Anonymous Query Params: {}
+INFO 2025-01-08 19:14:36,081 request_logger Response: 401 for GET /api/user/5/ Execution Time: 0.00s
+INFO 2025-01-08 19:16:46,245 request_logger Incoming request: GET /api/user/ User: Anonymous Query Params: {}
+INFO 2025-01-08 19:16:46,247 request_logger Response: 401 for GET /api/user/ Execution Time: 0.00s
+INFO 2025-01-08 19:16:55,777 request_logger Incoming request: GET /api/user/ User: Anonymous Query Params: {}
+INFO 2025-01-08 19:16:55,849 request_logger Response: 403 for GET /api/user/ Execution Time: 0.07s
+INFO 2025-01-08 19:17:50,132 request_logger Incoming request: POST /api/course/ User: Anonymous Query Params: {}
+INFO 2025-01-08 19:17:50,193 request_logger Response: 403 for POST /api/course/ Execution Time: 0.06s
+INFO 2025-01-08 19:19:31,522 request_logger Incoming request: POST /api/course/ User: Anonymous Query Params: {}
+INFO 2025-01-08 19:19:31,595 request_logger Response: 403 for POST /api/course/ Execution Time: 0.07s
+INFO 2025-01-08 19:25:04,586 request_logger Incoming request: POST /api/course/ User: Anonymous Query Params: {}
+INFO 2025-01-08 19:25:04,643 request_logger Response: 403 for POST /api/course/ Execution Time: 0.06s
+INFO 2025-01-08 19:40:40,721 request_logger Incoming request: GET /api/user/ User: Anonymous Query Params: {}
+INFO 2025-01-08 19:40:40,824 request_logger Response: 403 for GET /api/user/ Execution Time: 0.10s
+INFO 2025-01-08 19:40:58,043 request_logger Incoming request: GET /api/user/ User: Anonymous Query Params: {}
+INFO 2025-01-08 19:40:58,044 request_logger Response: 401 for GET /api/user/ Execution Time: 0.00s
+INFO 2025-01-08 19:41:25,891 request_logger Incoming request: GET /api/user/ User: Anonymous Query Params: {}
+INFO 2025-01-08 19:41:25,942 request_logger Response: 403 for GET /api/user/ Execution Time: 0.05s
+INFO 2025-01-08 19:43:05,852 request_logger Incoming request: GET /api/user/ User: Anonymous Query Params: {}
+INFO 2025-01-08 19:43:05,906 request_logger Response: 403 for GET /api/user/ Execution Time: 0.05s
+INFO 2025-01-08 19:43:29,587 request_logger Incoming request: POST /api/course/ User: Anonymous Query Params: {}
+INFO 2025-01-08 19:43:29,637 request_logger Response: 403 for POST /api/course/ Execution Time: 0.05s
+INFO 2025-01-08 19:43:56,636 request_logger Incoming request: POST /api/course/ User: Anonymous Query Params: {}
+INFO 2025-01-08 19:43:56,722 request_logger Response: 403 for POST /api/course/ Execution Time: 0.09s
+INFO 2025-01-08 19:46:46,995 request_logger Incoming request: POST /api/course/ User: Anonymous Query Params: {}
+INFO 2025-01-08 19:46:47,142 request_logger Response: 403 for POST /api/course/ Execution Time: 0.15s
+INFO 2025-01-08 19:47:04,412 request_logger Incoming request: POST /api/course/ User: Anonymous Query Params: {}
+INFO 2025-01-08 19:47:04,467 request_logger Response: 403 for POST /api/course/ Execution Time: 0.06s
+INFO 2025-01-09 11:21:04,549 request_logger Incoming request: POST /api/login/ User: Anonymous Query Params: {}
+INFO 2025-01-09 11:21:05,235 request_logger Response: 200 for POST /api/login/ Execution Time: 0.69s
+INFO 2025-01-09 11:21:34,206 request_logger Incoming request: GET /api/user/100/ User: Anonymous Query Params: {}
+INFO 2025-01-09 11:21:34,258 request_logger Response: 404 for GET /api/user/100/ Execution Time: 0.05s
+INFO 2025-01-09 11:21:51,815 request_logger Incoming request: POST /api/login/ User: Anonymous Query Params: {}
+INFO 2025-01-09 11:21:52,360 request_logger Response: 200 for POST /api/login/ Execution Time: 0.55s
+INFO 2025-01-09 11:22:17,620 request_logger Incoming request: GET /api/user/ User: Anonymous Query Params: {}
+INFO 2025-01-09 11:22:17,680 request_logger Response: 403 for GET /api/user/ Execution Time: 0.06s
+INFO 2025-01-09 11:22:47,619 request_logger Incoming request: GET /api/user/ User: Anonymous Query Params: {}
+INFO 2025-01-09 11:22:47,684 request_logger Response: 403 for GET /api/user/ Execution Time: 0.06s
+INFO 2025-01-09 11:22:51,307 request_logger Incoming request: GET /api/user/ User: Anonymous Query Params: {}
+INFO 2025-01-09 11:22:51,353 request_logger Response: 403 for GET /api/user/ Execution Time: 0.05s
+INFO 2025-01-09 11:23:14,887 request_logger Incoming request: GET /api/user/5/ User: Anonymous Query Params: {}
+INFO 2025-01-09 11:23:14,952 request_logger Response: 403 for GET /api/user/5/ Execution Time: 0.07s
+INFO 2025-01-09 11:23:48,149 request_logger Incoming request: GET /api/user/5/ User: Anonymous Query Params: {}
+INFO 2025-01-09 11:23:48,240 request_logger Response: 403 for GET /api/user/5/ Execution Time: 0.09s
+INFO 2025-01-09 11:24:07,242 request_logger Incoming request: GET /api/user/5/ User: Anonymous Query Params: {}
+INFO 2025-01-09 11:24:07,305 request_logger Response: 403 for GET /api/user/5/ Execution Time: 0.06s
+INFO 2025-01-09 11:24:09,034 request_logger Incoming request: GET /api/user/5/ User: Anonymous Query Params: {}
+INFO 2025-01-09 11:24:09,082 request_logger Response: 403 for GET /api/user/5/ Execution Time: 0.05s
+INFO 2025-01-09 11:24:38,312 request_logger Incoming request: GET /api/user/5/ User: Anonymous Query Params: {}
+INFO 2025-01-09 11:24:38,480 request_logger Response: 403 for GET /api/user/5/ Execution Time: 0.17s
+INFO 2025-01-09 11:25:01,801 request_logger Incoming request: GET /api/user/5/ User: Anonymous Query Params: {}
+INFO 2025-01-09 11:25:01,889 request_logger Response: 403 for GET /api/user/5/ Execution Time: 0.09s
+INFO 2025-01-09 11:25:36,009 request_logger Incoming request: GET /api/user/5/ User: Anonymous Query Params: {}
+INFO 2025-01-09 11:25:36,084 request_logger Response: 403 for GET /api/user/5/ Execution Time: 0.08s
+INFO 2025-01-09 11:28:11,258 request_logger Incoming request: GET /api/user/5/ User: Anonymous Query Params: {}
+INFO 2025-01-09 11:28:11,314 request_logger Response: 403 for GET /api/user/5/ Execution Time: 0.06s
+INFO 2025-01-09 11:30:00,556 request_logger Incoming request: GET /api/user/5/ User: Anonymous Query Params: {}
+INFO 2025-01-09 11:30:00,618 request_logger Response: 403 for GET /api/user/5/ Execution Time: 0.06s
+INFO 2025-01-09 11:37:49,960 request_logger Incoming request: GET /api/user/5/ User: Anonymous Query Params: {}
+INFO 2025-01-09 11:37:50,046 request_logger Response: 403 for GET /api/user/5/ Execution Time: 0.09s
+INFO 2025-01-09 11:39:26,151 request_logger Incoming request: GET /api/user/5/ User: Anonymous Query Params: {}
+INFO 2025-01-09 11:39:26,342 request_logger Response: 403 for GET /api/user/5/ Execution Time: 0.19s
+INFO 2025-01-09 11:51:45,031 request_logger Incoming request: GET /api/user/5/ User: Anonymous Query Params: {}
+INFO 2025-01-09 11:51:45,107 request_logger Response: 200 for GET /api/user/5/ Execution Time: 0.08s
+INFO 2025-01-09 11:52:26,934 request_logger Incoming request: GET /api/user/5/ User: Anonymous Query Params: {}
+INFO 2025-01-09 11:52:27,001 request_logger Response: 200 for GET /api/user/5/ Execution Time: 0.07s
+INFO 2025-01-09 11:52:40,146 request_logger Incoming request: GET /api/user/5/ User: Anonymous Query Params: {}
+INFO 2025-01-09 11:52:40,316 request_logger Response: 403 for GET /api/user/5/ Execution Time: 0.17s
+INFO 2025-01-09 11:55:21,127 request_logger Incoming request: GET /api/user/5/ User: Anonymous Query Params: {}
+INFO 2025-01-09 11:55:21,207 request_logger Response: 200 for GET /api/user/5/ Execution Time: 0.08s
+INFO 2025-01-09 11:55:49,114 request_logger Incoming request: GET /api/user/5/ User: Anonymous Query Params: {}
+INFO 2025-01-09 11:55:49,196 request_logger Response: 403 for GET /api/user/5/ Execution Time: 0.08s
+INFO 2025-01-09 15:42:49,267 request_logger Incoming request: GET /api/user/5/ User: Anonymous Query Params: {}
+INFO 2025-01-09 15:42:49,392 request_logger Response: 403 for GET /api/user/5/ Execution Time: 0.13s
+INFO 2025-01-09 15:44:48,022 request_logger Incoming request: GET /api/user/5/ User: Anonymous Query Params: {}
+INFO 2025-01-09 15:44:48,084 request_logger Response: 403 for GET /api/user/5/ Execution Time: 0.06s
+INFO 2025-01-09 15:50:09,966 request_logger Incoming request: GET /api/user/5/ User: Anonymous Query Params: {}
+INFO 2025-01-09 15:50:10,059 request_logger Response: 403 for GET /api/user/5/ Execution Time: 0.09s
+INFO 2025-01-09 15:52:53,695 request_logger Incoming request: GET /api/user/5/ User: Anonymous Query Params: {}
+INFO 2025-01-09 15:52:53,771 request_logger Response: 200 for GET /api/user/5/ Execution Time: 0.07s
+INFO 2025-01-09 16:01:42,538 request_logger Incoming request: GET /api/user/5/ User: Anonymous Query Params: {}
+INFO 2025-01-09 16:01:42,636 request_logger Response: 403 for GET /api/user/5/ Execution Time: 0.10s
+INFO 2025-01-09 16:03:14,843 request_logger Incoming request: GET /api/user/5/ User: Anonymous Query Params: {}
+INFO 2025-01-09 16:03:14,906 request_logger Response: 403 for GET /api/user/5/ Execution Time: 0.06s
+INFO 2025-01-09 16:03:16,695 request_logger Incoming request: GET /api/user/5/ User: Anonymous Query Params: {}
+INFO 2025-01-09 16:03:16,743 request_logger Response: 403 for GET /api/user/5/ Execution Time: 0.05s
+INFO 2025-01-09 16:05:12,461 request_logger Incoming request: GET /api/user/905/ User: Anonymous Query Params: {}
+INFO 2025-01-09 16:05:12,716 request_logger Response: 500 for GET /api/user/905/ Execution Time: 0.26s
+INFO 2025-01-09 16:06:02,170 request_logger Incoming request: GET /api/user/905/ User: Anonymous Query Params: {}
+INFO 2025-01-09 16:06:02,296 request_logger Response: 500 for GET /api/user/905/ Execution Time: 0.13s
+INFO 2025-01-09 16:07:04,365 request_logger Incoming request: GET /api/user/905/ User: Anonymous Query Params: {}
+INFO 2025-01-09 16:07:04,471 request_logger Response: 500 for GET /api/user/905/ Execution Time: 0.10s
+INFO 2025-01-09 16:07:49,800 request_logger Incoming request: GET /api/user/905/ User: Anonymous Query Params: {}
+INFO 2025-01-09 16:07:49,905 request_logger Response: 500 for GET /api/user/905/ Execution Time: 0.10s
+INFO 2025-01-09 16:14:47,226 request_logger Incoming request: GET /api/user/905/ User: Anonymous Query Params: {}
+INFO 2025-01-09 16:14:47,340 request_logger Response: 500 for GET /api/user/905/ Execution Time: 0.11s
+INFO 2025-01-09 16:16:13,252 request_logger Incoming request: GET /api/user/905/ User: Anonymous Query Params: {}
+INFO 2025-01-09 16:16:13,459 request_logger Response: 500 for GET /api/user/905/ Execution Time: 0.21s
+INFO 2025-01-09 16:18:02,740 request_logger Incoming request: GET /api/user/905/ User: Anonymous Query Params: {}
+INFO 2025-01-09 16:18:02,853 request_logger Response: 500 for GET /api/user/905/ Execution Time: 0.11s
+INFO 2025-01-09 16:20:03,500 request_logger Incoming request: GET /api/user/905/ User: Anonymous Query Params: {}
+INFO 2025-01-09 16:20:03,574 request_logger Response: 404 for GET /api/user/905/ Execution Time: 0.07s
+INFO 2025-01-09 16:20:28,207 request_logger Incoming request: GET /api/user/905/ User: Anonymous Query Params: {}
+INFO 2025-01-09 16:20:28,386 request_logger Response: 404 for GET /api/user/905/ Execution Time: 0.18s
+INFO 2025-01-09 16:23:06,491 request_logger Incoming request: GET /api/user/905/ User: Anonymous Query Params: {}
+INFO 2025-01-09 16:23:06,562 request_logger Response: 404 for GET /api/user/905/ Execution Time: 0.07s
+INFO 2025-01-09 16:32:30,981 request_logger Incoming request: GET /api/user/905/ User: Anonymous Query Params: {}
+INFO 2025-01-09 16:32:31,117 request_logger Response: 404 for GET /api/user/905/ Execution Time: 0.14s
+INFO 2025-01-09 16:32:53,956 request_logger Incoming request: GET /api/user/905/ User: Anonymous Query Params: {}
+INFO 2025-01-09 16:32:54,028 request_logger Response: 404 for GET /api/user/905/ Execution Time: 0.07s
+INFO 2025-01-09 16:33:00,910 request_logger Incoming request: GET /api/user/905/ User: Anonymous Query Params: {}
+INFO 2025-01-09 16:33:00,982 request_logger Response: 404 for GET /api/user/905/ Execution Time: 0.07s
+INFO 2025-01-09 16:38:26,429 request_logger Incoming request: GET /api/user/905/ User: Anonymous Query Params: {}
+INFO 2025-01-09 16:38:26,505 request_logger Response: 404 for GET /api/user/905/ Execution Time: 0.08s
+INFO 2025-01-09 16:41:03,446 request_logger Incoming request: GET /api/user/5/ User: Anonymous Query Params: {}
+INFO 2025-01-09 16:41:03,558 request_logger Response: 403 for GET /api/user/5/ Execution Time: 0.11s
+INFO 2025-01-09 16:42:30,780 request_logger Incoming request: GET /api/user/5/ User: Anonymous Query Params: {}
+INFO 2025-01-09 16:42:30,965 request_logger Response: 403 for GET /api/user/5/ Execution Time: 0.18s
+INFO 2025-01-09 16:43:08,877 request_logger Incoming request: GET /api/user/5/ User: Anonymous Query Params: {}
+INFO 2025-01-09 16:43:08,880 request_logger Response: 401 for GET /api/user/5/ Execution Time: 0.00s
+INFO 2025-01-09 16:43:32,310 request_logger Incoming request: GET /api/user/5/ User: Anonymous Query Params: {}
+INFO 2025-01-09 16:43:32,310 request_logger Response: 401 for GET /api/user/5/ Execution Time: 0.00s
+INFO 2025-01-09 16:44:50,223 request_logger Incoming request: GET /api/user/5/ User: Anonymous Query Params: {}
+INFO 2025-01-09 16:44:50,226 request_logger Response: 401 for GET /api/user/5/ Execution Time: 0.00s
+INFO 2025-01-09 16:48:37,717 request_logger Incoming request: GET /api/user/5/ User: Anonymous Query Params: {}
+INFO 2025-01-09 16:48:37,736 request_logger Response: 401 for GET /api/user/5/ Execution Time: 0.02s
+INFO 2025-01-09 16:56:18,686 request_logger Incoming request: GET /api/user/5/ User: Anonymous Query Params: {}
+INFO 2025-01-09 16:56:18,702 request_logger Response: 401 for GET /api/user/5/ Execution Time: 0.02s
+INFO 2025-01-09 16:57:02,843 request_logger Incoming request: GET /api/user/5/ User: Anonymous Query Params: {}
+INFO 2025-01-09 16:57:02,859 request_logger Response: 401 for GET /api/user/5/ Execution Time: 0.02s
+INFO 2025-01-09 16:57:40,623 request_logger Incoming request: GET /api/user/5/ User: Anonymous Query Params: {}
+INFO 2025-01-09 16:57:40,639 request_logger Response: 401 for GET /api/user/5/ Execution Time: 0.02s
+INFO 2025-01-09 16:57:46,072 request_logger Incoming request: POST /api/course/ User: Anonymous Query Params: {}
+INFO 2025-01-09 16:57:46,073 request_logger Response: 401 for POST /api/course/ Execution Time: 0.00s
+INFO 2025-01-09 16:57:53,924 request_logger Incoming request: POST /api/course/ User: Anonymous Query Params: {}
+INFO 2025-01-09 16:57:53,972 request_logger Response: 403 for POST /api/course/ Execution Time: 0.05s
+INFO 2025-01-09 16:58:04,801 request_logger Incoming request: POST /api/course/ User: Anonymous Query Params: {}
+INFO 2025-01-09 16:58:04,869 request_logger Response: 403 for POST /api/course/ Execution Time: 0.07s
+INFO 2025-01-09 16:58:19,033 request_logger Incoming request: POST /api/course/ User: Anonymous Query Params: {}
+INFO 2025-01-09 16:58:19,080 request_logger Response: 403 for POST /api/course/ Execution Time: 0.05s
+INFO 2025-01-09 16:59:45,037 request_logger Incoming request: POST /api/course/ User: Anonymous Query Params: {}
+INFO 2025-01-09 16:59:45,121 request_logger Response: 403 for POST /api/course/ Execution Time: 0.08s
+INFO 2025-01-09 17:00:00,811 request_logger Incoming request: POST /api/course/ User: Anonymous Query Params: {}
+INFO 2025-01-09 17:00:00,858 request_logger Response: 403 for POST /api/course/ Execution Time: 0.05s
+INFO 2025-01-09 17:00:40,908 request_logger Incoming request: POST /api/course/ User: Anonymous Query Params: {}
+INFO 2025-01-09 17:00:41,080 request_logger Response: 403 for POST /api/course/ Execution Time: 0.17s
+INFO 2025-01-09 17:01:26,761 request_logger Incoming request: POST /api/course/ User: Anonymous Query Params: {}
+INFO 2025-01-09 17:01:26,824 request_logger Response: 403 for POST /api/course/ Execution Time: 0.06s
+INFO 2025-01-09 18:06:43,017 request_logger Incoming request: GET /api/course/ User: Anonymous Query Params: {}
+INFO 2025-01-09 18:06:43,022 request_logger Response: 401 for GET /api/course/ Execution Time: 0.00s
+INFO 2025-01-09 18:13:33,638 request_logger Incoming request: GET /api/course/ User: Anonymous Query Params: {}
+INFO 2025-01-09 18:13:33,638 request_logger Response: 401 for GET /api/course/ Execution Time: 0.00s
+INFO 2025-01-09 18:13:41,789 request_logger Incoming request: GET /api/course/ User: Anonymous Query Params: {}
+INFO 2025-01-09 18:13:41,874 request_logger Response: 200 for GET /api/course/ Execution Time: 0.08s
+INFO 2025-01-09 18:13:49,524 request_logger Incoming request: GET /api/course/1000 User: Anonymous Query Params: {}
+INFO 2025-01-09 18:13:49,564 request_logger Response: 404 for GET /api/course/1000 Execution Time: 0.04s
+INFO 2025-01-09 18:13:49,570 request_logger Incoming request: GET /api/course/1000/ User: Anonymous Query Params: {}
+INFO 2025-01-09 18:13:49,783 request_logger Response: 500 for GET /api/course/1000/ Execution Time: 0.21s
+INFO 2025-01-09 18:15:59,496 request_logger Incoming request: GET /api/course/1000 User: Anonymous Query Params: {}
+INFO 2025-01-09 18:15:59,511 request_logger Response: 404 for GET /api/course/1000 Execution Time: 0.01s
+INFO 2025-01-09 18:15:59,513 request_logger Incoming request: GET /api/course/1000/ User: Anonymous Query Params: {}
+INFO 2025-01-09 18:15:59,685 request_logger Response: 500 for GET /api/course/1000/ Execution Time: 0.17s
+INFO 2025-01-09 18:17:52,651 request_logger Incoming request: GET /api/course/1000 User: Anonymous Query Params: {}
+INFO 2025-01-09 18:17:52,661 request_logger Response: 404 for GET /api/course/1000 Execution Time: 0.01s
+INFO 2025-01-09 18:17:52,667 request_logger Incoming request: GET /api/course/1000/ User: Anonymous Query Params: {}
+INFO 2025-01-09 18:17:52,751 request_logger Response: 200 for GET /api/course/1000/ Execution Time: 0.08s
+INFO 2025-01-09 18:18:21,154 request_logger Incoming request: GET /api/course/10001 User: Anonymous Query Params: {}
+INFO 2025-01-09 18:18:21,159 request_logger Response: 404 for GET /api/course/10001 Execution Time: 0.00s
+INFO 2025-01-09 18:18:21,162 request_logger Incoming request: GET /api/course/10001/ User: Anonymous Query Params: {}
+INFO 2025-01-09 18:18:21,249 request_logger Response: 500 for GET /api/course/10001/ Execution Time: 0.09s
+INFO 2025-01-09 18:19:04,717 request_logger Incoming request: GET /api/course/10001 User: Anonymous Query Params: {}
+INFO 2025-01-09 18:19:04,729 request_logger Response: 404 for GET /api/course/10001 Execution Time: 0.01s
+INFO 2025-01-09 18:19:04,732 request_logger Incoming request: GET /api/course/10001/ User: Anonymous Query Params: {}
+INFO 2025-01-09 18:19:04,887 request_logger Response: 500 for GET /api/course/10001/ Execution Time: 0.15s
+INFO 2025-01-09 18:19:06,140 request_logger Incoming request: GET /api/course/10001 User: Anonymous Query Params: {}
+INFO 2025-01-09 18:19:06,145 request_logger Response: 404 for GET /api/course/10001 Execution Time: 0.00s
+INFO 2025-01-09 18:19:06,148 request_logger Incoming request: GET /api/course/10001/ User: Anonymous Query Params: {}
+INFO 2025-01-09 18:19:06,238 request_logger Response: 500 for GET /api/course/10001/ Execution Time: 0.09s
+INFO 2025-01-09 18:19:57,096 request_logger Incoming request: GET /api/course/10001 User: Anonymous Query Params: {}
+INFO 2025-01-09 18:19:57,112 request_logger Response: 404 for GET /api/course/10001 Execution Time: 0.02s
+INFO 2025-01-09 18:19:57,112 request_logger Incoming request: GET /api/course/10001/ User: Anonymous Query Params: {}
+INFO 2025-01-09 18:19:57,233 request_logger Response: 500 for GET /api/course/10001/ Execution Time: 0.12s
+INFO 2025-01-09 18:20:49,688 request_logger Incoming request: GET /api/course/10001 User: Anonymous Query Params: {}
+INFO 2025-01-09 18:20:49,699 request_logger Response: 404 for GET /api/course/10001 Execution Time: 0.01s
+INFO 2025-01-09 18:20:49,704 request_logger Incoming request: GET /api/course/10001/ User: Anonymous Query Params: {}
+INFO 2025-01-09 18:20:49,881 request_logger Response: 404 for GET /api/course/10001/ Execution Time: 0.18s
+INFO 2025-01-09 18:23:32,758 request_logger Incoming request: GET /api/course/10001 User: Anonymous Query Params: {}
+INFO 2025-01-09 18:23:32,758 request_logger Response: 404 for GET /api/course/10001 Execution Time: 0.00s
+INFO 2025-01-09 18:23:32,774 request_logger Incoming request: GET /api/course/10001/ User: Anonymous Query Params: {}
+INFO 2025-01-09 18:23:32,818 request_logger Response: 404 for GET /api/course/10001/ Execution Time: 0.04s
+INFO 2025-01-09 18:23:57,654 request_logger Incoming request: GET /api/course/10001 User: Anonymous Query Params: {}
+INFO 2025-01-09 18:23:57,662 request_logger Response: 404 for GET /api/course/10001 Execution Time: 0.01s
+INFO 2025-01-09 18:23:57,668 request_logger Incoming request: GET /api/course/10001/ User: Anonymous Query Params: {}
+INFO 2025-01-09 18:23:57,863 request_logger Response: 500 for GET /api/course/10001/ Execution Time: 0.19s
+INFO 2025-01-09 18:24:13,753 request_logger Incoming request: GET /api/course/10001 User: Anonymous Query Params: {}
+INFO 2025-01-09 18:24:13,797 request_logger Response: 404 for GET /api/course/10001 Execution Time: 0.04s
+INFO 2025-01-09 18:24:13,838 request_logger Incoming request: GET /api/course/10001/ User: Anonymous Query Params: {}
+INFO 2025-01-09 18:24:14,046 request_logger Response: 404 for GET /api/course/10001/ Execution Time: 0.21s
+INFO 2025-01-09 18:24:22,672 request_logger Incoming request: GET /api/user/5/ User: Anonymous Query Params: {}
+INFO 2025-01-09 18:24:22,829 request_logger Response: 403 for GET /api/user/5/ Execution Time: 0.16s
+INFO 2025-01-09 18:24:30,994 request_logger Incoming request: GET /api/user/100/ User: Anonymous Query Params: {}
+INFO 2025-01-09 18:24:31,144 request_logger Response: 404 for GET /api/user/100/ Execution Time: 0.15s
+INFO 2025-01-09 18:25:07,182 request_logger Incoming request: GET /api/user/5/ User: Anonymous Query Params: {}
+INFO 2025-01-09 18:25:07,238 request_logger Response: 200 for GET /api/user/5/ Execution Time: 0.06s
+INFO 2025-01-09 18:25:33,220 request_logger Incoming request: GET /api/user/5/ User: Anonymous Query Params: {}
+INFO 2025-01-09 18:25:33,376 request_logger Response: 200 for GET /api/user/5/ Execution Time: 0.16s
+INFO 2025-01-09 18:31:56,871 request_logger Incoming request: GET /api/user/5/ User: Anonymous Query Params: {}
+INFO 2025-01-09 18:31:56,928 request_logger Response: 200 for GET /api/user/5/ Execution Time: 0.06s
+INFO 2025-01-09 18:32:15,570 request_logger Incoming request: GET /api/user/5/ User: Anonymous Query Params: {}
+INFO 2025-01-09 18:32:15,632 request_logger Response: 200 for GET /api/user/5/ Execution Time: 0.06s
+INFO 2025-01-09 18:36:14,371 request_logger Incoming request: GET /api/user/5/ User: Anonymous Query Params: {}
+INFO 2025-01-09 18:36:14,467 request_logger Response: 500 for GET /api/user/5/ Execution Time: 0.10s
+INFO 2025-01-09 18:37:17,604 request_logger Incoming request: GET /api/user/5/ User: Anonymous Query Params: {}
+INFO 2025-01-09 18:37:17,729 request_logger Response: 500 for GET /api/user/5/ Execution Time: 0.12s
+INFO 2025-01-09 18:37:53,743 request_logger Incoming request: GET /api/user/5/ User: Anonymous Query Params: {}
+INFO 2025-01-09 18:37:53,817 request_logger Response: 200 for GET /api/user/5/ Execution Time: 0.07s
+INFO 2025-01-09 18:38:06,532 request_logger Incoming request: GET /api/user/5/ User: Anonymous Query Params: {}
+INFO 2025-01-09 18:38:06,594 request_logger Response: 200 for GET /api/user/5/ Execution Time: 0.06s
+INFO 2025-01-09 18:38:07,735 request_logger Incoming request: GET /api/user/5/ User: Anonymous Query Params: {}
+INFO 2025-01-09 18:38:07,782 request_logger Response: 200 for GET /api/user/5/ Execution Time: 0.05s
+INFO 2025-01-09 18:38:21,549 request_logger Incoming request: GET /api/user/5/ User: Anonymous Query Params: {}
+INFO 2025-01-09 18:38:21,720 request_logger Response: 200 for GET /api/user/5/ Execution Time: 0.17s
+INFO 2025-01-09 18:47:10,704 request_logger Incoming request: GET /api/user/5/ User: Anonymous Query Params: {}
+INFO 2025-01-09 18:47:10,845 request_logger Response: 200 for GET /api/user/5/ Execution Time: 0.14s
+INFO 2025-01-09 18:47:33,127 request_logger Incoming request: GET /api/user/5/ User: Anonymous Query Params: {}
+INFO 2025-01-09 18:47:33,252 request_logger Response: 200 for GET /api/user/5/ Execution Time: 0.12s
+INFO 2025-01-09 18:48:05,388 request_logger Incoming request: GET /api/user/5/ User: Anonymous Query Params: {}
+INFO 2025-01-09 18:48:05,481 request_logger Response: 200 for GET /api/user/5/ Execution Time: 0.09s
+INFO 2025-01-09 18:58:08,744 request_logger Incoming request: GET /api/user/5/ User: Anonymous Query Params: {}
+INFO 2025-01-09 18:58:08,947 request_logger Response: 500 for GET /api/user/5/ Execution Time: 0.20s
+INFO 2025-01-09 18:58:47,194 request_logger Incoming request: GET /api/user/5/ User: Anonymous Query Params: {}
+INFO 2025-01-09 18:58:47,303 request_logger Response: 200 for GET /api/user/5/ Execution Time: 0.11s
+INFO 2025-01-09 19:13:01,758 request_logger Incoming request: GET /api/user/500/ User: Anonymous Query Params: {}
+INFO 2025-01-09 19:13:01,895 request_logger Response: 404 for GET /api/user/500/ Execution Time: 0.14s
+INFO 2025-01-09 19:13:15,692 request_logger Incoming request: GET /api/course/10001 User: Anonymous Query Params: {}
+INFO 2025-01-09 19:13:15,707 request_logger Response: 404 for GET /api/course/10001 Execution Time: 0.01s
+INFO 2025-01-09 19:13:15,714 request_logger Incoming request: GET /api/course/10001/ User: Anonymous Query Params: {}
+INFO 2025-01-09 19:13:15,790 request_logger Response: 404 for GET /api/course/10001/ Execution Time: 0.08s
+INFO 2025-01-09 19:13:26,955 request_logger Incoming request: GET /api/course/10001 User: Anonymous Query Params: {}
+INFO 2025-01-09 19:13:26,955 request_logger Response: 404 for GET /api/course/10001 Execution Time: 0.00s
+INFO 2025-01-09 19:13:26,970 request_logger Incoming request: GET /api/course/10001/ User: Anonymous Query Params: {}
+INFO 2025-01-09 19:13:27,059 request_logger Response: 404 for GET /api/course/10001/ Execution Time: 0.09s
+INFO 2025-01-09 19:13:44,641 request_logger Incoming request: GET /api/course/10001 User: Anonymous Query Params: {}
+INFO 2025-01-09 19:13:44,657 request_logger Response: 404 for GET /api/course/10001 Execution Time: 0.02s
+INFO 2025-01-09 19:13:44,657 request_logger Incoming request: GET /api/course/10001/ User: Anonymous Query Params: {}
+INFO 2025-01-09 19:13:44,762 request_logger Response: 404 for GET /api/course/10001/ Execution Time: 0.10s
+INFO 2025-01-09 19:14:25,205 request_logger Incoming request: GET /api/course/10001 User: Anonymous Query Params: {}
+INFO 2025-01-09 19:14:25,222 request_logger Response: 404 for GET /api/course/10001 Execution Time: 0.02s
+INFO 2025-01-09 19:14:25,222 request_logger Incoming request: GET /api/course/10001/ User: Anonymous Query Params: {}
+INFO 2025-01-09 19:14:25,318 request_logger Response: 404 for GET /api/course/10001/ Execution Time: 0.09s
+INFO 2025-01-09 19:14:34,115 request_logger Incoming request: GET /api/course/10001 User: Anonymous Query Params: {}
+INFO 2025-01-09 19:14:34,131 request_logger Response: 404 for GET /api/course/10001 Execution Time: 0.02s
+INFO 2025-01-09 19:14:34,139 request_logger Incoming request: GET /api/course/10001/ User: Anonymous Query Params: {}
+INFO 2025-01-09 19:14:34,254 request_logger Response: 404 for GET /api/course/10001/ Execution Time: 0.12s
