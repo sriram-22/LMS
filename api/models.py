@@ -3,15 +3,15 @@ from django.contrib.auth.models import AbstractUser
 from django.contrib.auth.models import Group, Permission
 from django.utils import timezone
 
+class Role(models.TextChoices):
+    STUDENT = "student", "Student"
+    INSTRUCTOR = "instructor", "Instructor"
+    ADMIN = "admin", "Admin"
+
 
 class User(AbstractUser):
     email = models.EmailField(unique=True)
     username = models.CharField(max_length=100, unique=True)
-    class Role(models.TextChoices):
-        STUDENT = "student", "Student"
-        INSTRUCTOR = "instructor", "Instructor"
-        ADMIN = "admin", "Admin"
-
     role = models.CharField(max_length=20, choices=Role, default="student")
     groups = models.ManyToManyField(Group,related_name='custom_user_groups',blank=True,)
     user_permissions = models.ManyToManyField(Permission,related_name='custom_user_permissions',blank=True,)

@@ -19,14 +19,14 @@ class IsAdminOrInstructor(BasePermission):
 
 class IsAdminOrStudent(BasePermission):
     def has_permission(self, request, view):
-        return request.user.role == "admin" or request.user.role == "student"
+        return request.user.role == "admin" or request.user.role == "stuasdent"
 class IsUser(BasePermission):
     def has_object_permission(self, request, view, obj):
         return request.user == obj
 
 class IsUserorAdmin(BasePermission):
     def has_object_permission(self, request, view, obj):
-        return request.user == obj or request.user.role == "admin"
+        return request.user == obj or request.user.role == Role.ADMIN
 
 class IsAdminOrInstructorOrStudentRelatedToCourse(BasePermission):
     def has_object_permission(self, request, view, course):

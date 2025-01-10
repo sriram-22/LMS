@@ -314,3 +314,15 @@ INFO 2025-01-09 19:14:34,115 request_logger Incoming request: GET /api/course/10
 INFO 2025-01-09 19:14:34,131 request_logger Response: 404 for GET /api/course/10001 Execution Time: 0.02s
 INFO 2025-01-09 19:14:34,139 request_logger Incoming request: GET /api/course/10001/ User: Anonymous Query Params: {}
 INFO 2025-01-09 19:14:34,254 request_logger Response: 404 for GET /api/course/10001/ Execution Time: 0.12s
+INFO 2025-01-10 15:37:13,498 request_logger Incoming request: POST /api/register/ User: Anonymous Query Params: {}
+INFO 2025-01-10 15:37:13,557 request_logger Response: 400 for POST /api/register/ Execution Time: 0.06s
+INFO 2025-01-10 15:37:36,761 request_logger Incoming request: POST /api/register/ User: Anonymous Query Params: {}
+INFO 2025-01-10 15:37:36,810 request_logger Response: 400 for POST /api/register/ Execution Time: 0.05s
+INFO 2025-01-10 15:37:56,960 request_logger Incoming request: POST /api/register/ User: Anonymous Query Params: {}
+INFO 2025-01-10 15:37:57,007 request_logger Response: 400 for POST /api/register/ Execution Time: 0.05s
+INFO 2025-01-10 15:37:58,448 request_logger Incoming request: POST /api/register/ User: Anonymous Query Params: {}
+INFO 2025-01-10 15:37:58,495 request_logger Response: 400 for POST /api/register/ Execution Time: 0.05s
+INFO 2025-01-10 15:42:05,051 request_logger Incoming request: POST /api/register/ User: Anonymous Query Params: {}
+INFO 2025-01-10 15:42:05,199 request_logger Response: 400 for POST /api/register/ Execution Time: 0.15s
+INFO 2025-01-10 15:42:06,347 request_logger Incoming request: POST /api/register/ User: Anonymous Query Params: {}
+INFO 2025-01-10 15:42:06,395 request_logger Response: 400 for POST /api/register/ Execution Time: 0.05s
